@@ -20,3 +20,24 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.Home {
+  margin-top: 15vmin;
+}
+
+.social-icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  font-size: 6vmin;
+}
+
+.social-icon {
+  margin: 1.5vmin;
+}
+
+.profile-img {
+  width: 40vmin;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
