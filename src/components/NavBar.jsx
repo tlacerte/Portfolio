@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <div className="Nav">
             <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home">Taylor Lacerte</Navbar.Brand>
+            <Navbar.Brand>Taylor Lacerte</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -15,7 +15,7 @@ const NavBar = () => {
                     <Link to='/'>Home</Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to='/aboutme'>About Me</Link>
+                <Link to='/about'>About Me</Link>
                 </Nav.Link>
                 <Nav.Link>
                 <Link to='/projects'>Projects</Link>

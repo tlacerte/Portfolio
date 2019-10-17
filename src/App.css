@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .App-logo {
@@ -26,18 +27,22 @@
   margin-top: 15vmin;
 }
 
+.home-text {
+  margin-top: 3vmin;
+}
+
 .social-icons {
   display: flex;
   list-style-type: none;
   justify-content: center;
-  font-size: 6vmin;
+  font-size: 7vmin;
 }
 
 .social-icon {
-  margin: 1.5vmin;
+  margin: 2vmin;
 }
 
 .profile-img {
-  width: 40vmin;
+  width: 32vmin;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
