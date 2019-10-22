@@ -47,11 +47,20 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.AboutMe {
-  margin: 15vmin;
+.aboutme-p {
+  margin-left: 30vmin;
+  margin-right: 30vmin;
 }
 
 .skills-list {
   list-style-type: none;
 }
 
+.work-experience {
+  display: flex;
+  justify-content: center;
+}
+
+.indeed, .meltwater {
+  margin: 1vmin 12vmin;
+}
