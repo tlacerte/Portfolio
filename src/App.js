@@ -7,6 +7,7 @@ import './App.css';
 import Nav from './components/NavBar'
 import Home from './components/Home'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects/Projects'
 
 library.add(fab)
 
@@ -21,6 +22,9 @@ class App extends Component {
             }/>
             <Route exact path='/about' render={() =>
               <AboutMe />
+            }/>
+            <Route exact path='/projects' render={() =>
+              <Projects />
             }/>
         </Switch>
       </div>
